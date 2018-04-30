@@ -9,7 +9,7 @@ BeginPackage["aes`"]
 Unprotect @@Names["aes`*"]
 ClearAll @@Names["aes`*"]
 
-AESSbox::usage="AESSbox[x] AES SBox look-up table"
+AESSBox::usage="AESSBox[x] AES SBox look-up table"
 AESGFMul2::usage="AESGFMul2[x] AES GF field multiplied by 2 look-up table"
 AESGFMul3::usage="AESGFMul3[x] AES GF field multiplied by 3 look-up table"
 Begin["`Priavte`"]
